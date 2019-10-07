@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: white;
+    background: linear-gradient(to top, #6699ff 0%, #ffffff 100%);
   }
 
 em {
@@ -61,11 +61,30 @@ img.border {
    border:1px solid #021a40;
 }
 
+h1.box {
+  background-color: #3E47B6;
+  width: 400px;
+  border: 15px #3E47B6;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.smallborder {
+  border: 15px #3E47B6;
+}
+
+
+
 #a1{
   font-size: 18px;
 }
 
-
+#infobox{
+  background-color: #3F3A71
+}
 
 #pagehead {
   font-size: 25px;
