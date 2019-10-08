@@ -91,7 +91,7 @@ h1.box {
 
 
 
-#a1{
+.a1{
   font-size: 18px;
 }
 
@@ -149,7 +149,7 @@ a:hover {
     }
   }
 
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
