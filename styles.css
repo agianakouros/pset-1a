@@ -6,7 +6,9 @@
 
 
 
-
+a {
+  color: #3E47B6;
+}
 body {
     background: linear-gradient(to top, #6699ff 0%, #ffffff 100%);
   }
@@ -18,13 +20,23 @@ em {
 
 p {
   font-size: 20px;
+  text-indent: 30px;
 }
+
 
 h3 {
   font-size: 28px;
 }
 
 ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li em {
   display: block;
   color: white;
   text-align: center;
@@ -42,18 +54,28 @@ ul li a {
 }
 
 
-
+em.color{
+  color: white;
+}
 div.color {
   padding: 16px;
       background-color: gray;
 }
 
-ul.bar {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #3E47B6;
+}
+
+ul.foot {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #091E37;
 }
 
 li.bar {
@@ -95,6 +117,8 @@ h1.box {
   font-size: 18px;
 }
 
+
+
 #infobox{
   background-color: #3F3A71
 }
@@ -117,7 +141,7 @@ h1.box {
 
 #float3{
   float: left;
-  padding-right: 0px;
+  padding-right:0px;
   border:3px solid #021a40;
   margin-right: 15px;
 }
@@ -130,13 +154,33 @@ h1.box {
    margin-left: 15px;
 }
 
+
+
+#float5{
+  float: left;
+  padding-right:0px;
+  border:3px solid #021a40;
+  margin-right: 50px;
+}
+
+#float6{
+  float: right;
+  padding-left: 0px;
+  border:4px solid #021a40;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+
 a:hover {
     color: black;
 }
 
 
 
-
+div ol li{
+  padding-left: 0px;
+}
 
 .column {
   float: left;
