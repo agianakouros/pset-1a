@@ -1,14 +1,26 @@
 
+/*Universal*/
 * {
     margin: 10;
     padding: 10;
 }
 
+/*List*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #122740;
+  text-shadow: 1px 1px #00A2FF;
+}
 
-
+/*Type*/
 a {
   color: #3E47B6;
 }
+
 body {
     background: linear-gradient(to top, #6699ff 0%, #ffffff 100%);
   }
@@ -23,11 +35,11 @@ p {
   text-indent: 30px;
 }
 
-
 h3 {
   font-size: 28px;
 }
 
+/*Combinators*/
 ul li a {
   display: block;
   color: white;
@@ -44,12 +56,13 @@ ul li em {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #091E37;
+
+div ol li{
+  padding-left: 0px;
+  font-size: 20px;
 }
 
-
-
+/*Class*/
 .accident {
   display: block;
   color: white;
@@ -59,6 +72,16 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
+.green{
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+ .bold {
+   font-weight: bold;
+ }
 
 em.color{
   color: white;
@@ -105,10 +128,6 @@ li.bar {
   float: left;
 }
 
-li a:hover:not(.active) {
-  background-color: #314E73;
-}
-
 img.border1 {
    padding:1px;
    border:1px solid #021a40;
@@ -134,14 +153,11 @@ h1.box {
   border: 15px #3E47B6;
 }
 
-
-
 .a1{
   font-size: 18px;
 }
 
-
-
+/*ID*/
 #infobox{
   background-color: #3F3A71
 }
@@ -177,8 +193,6 @@ h1.box {
    margin-left: 15px;
 }
 
-
-
 #float5{
   float: left;
   padding-right:0px;
@@ -194,25 +208,17 @@ h1.box {
   margin-top: 20px;
 }
 
-
+/*Pseudo*/
 a:hover {
     color: black;
+    cursor: pointer;
 }
 
-
-
-div ol li{
-  padding-left: 0px;
-  font-size: 20px;
+li a:hover:not(.active) {
+  background-color: #314E73;
 }
 
-.green{
-  color: green;
+/*Attribute*/
+a[href*=".com"] {
+  font-weight: bold;
 }
-
-.blue {
-  color: blue;
-}
- .bold {
-   font-weight: bold;
- }
