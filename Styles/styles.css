@@ -208,6 +208,21 @@ h1.box {
   margin-top: 20px;
 }
 
+/*Pseudo*/
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+li a:hover:not(.active) {
+  background-color: #314E73;
+}
+
+/*Attribute*/
+a[href*=".com"] {
+  font-weight: bold;
+}
+
 #table {
   border-collapse: collapse;
   width: 100%;
@@ -231,19 +246,4 @@ h1.box {
   text-align: center;
   background-color: #021a40;
   color: white;
-}
-
-/*Pseudo*/
-a:hover {
-    color: black;
-    cursor: pointer;
-}
-
-li a:hover:not(.active) {
-  background-color: #314E73;
-}
-
-/*Attribute*/
-a[href*=".com"] {
-  font-weight: bold;
 }
