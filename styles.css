@@ -44,6 +44,12 @@ ul li em {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #091E37;
+}
+
+
+
 .accident {
   display: block;
   color: white;
@@ -57,6 +63,23 @@ ul li em {
 em.color{
   color: white;
 }
+
+div.center {
+text-align: center;
+width: 800px;
+padding: 0px;
+margin: 0px;
+margin: auto;
+}
+
+div.center2 {
+text-align: center;
+width: 1500px;
+padding: 0px;
+margin: 0px;
+margin: auto;
+}
+
 div.color {
   padding: 16px;
       background-color: gray;
@@ -67,7 +90,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #3E47B6;
+  background-color: #091E37;
 }
 
 ul.foot {
@@ -75,7 +98,7 @@ ul.foot {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #091E37;
+  background-color: #24282C;
 }
 
 li.bar {
@@ -180,21 +203,16 @@ a:hover {
 
 div ol li{
   padding-left: 0px;
+  font-size: 20px;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+.green{
+  color: green;
+}
 
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.blue {
+  color: blue;
+}
+ .bold {
+   font-weight: bold;
+ }
